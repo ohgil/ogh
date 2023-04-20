@@ -1,6 +1,7 @@
-package org.example;
+package org.example.product.entity;
 
-public class product {
+public class Product {
+
     private long id;
     private String product_name;
     private String product_brand;
@@ -8,7 +9,8 @@ public class product {
     private String product_price;
     private String product_expanation;
 
-    public product(long id, String product_name, String product_brand, String product_capacity, String product_price, String product_expanation) {
+    public Product(long id, String product_name, String product_brand, String product_capacity, String
+            product_price, String product_expanation) {
         this.id = id;
         this.product_name = product_name;
         this.product_brand = product_brand;
@@ -40,6 +42,6 @@ public class product {
     public String getProduct_expanation() {
         return product_expanation;
     }
+
+
 }
-
-
